@@ -6,7 +6,7 @@ This project demonstrates how to fine-tune a language model using Proximal Polic
 🧠 Training Usage
 
 ```bash
-python train.py --reward_type [positive|negative|neutral]
+python PPO.py --reward_type [positive|negative|neutral]
 ```
 
 Examples:
