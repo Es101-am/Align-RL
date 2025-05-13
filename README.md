@@ -12,8 +12,8 @@ python train.py --reward_type [positive|negative|neutral]
 Examples:
 
 ```bash
-python train.py --reward_type positive   # Learn to generate positive reviews
-python train.py --reward_type neutral    # Learn to generate more balanced reviews
+python PPO.py --reward_type positive   # Learn to generate positive reviews
+python PPO.py --reward_type neutral    # Learn to generate more balanced reviews
 ```
 
 ---
